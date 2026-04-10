@@ -4,63 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>EcoMedellín</title>
 </head>
 <body>
     <header>
-        <h1>logo</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Productos</a></li>
-                </ul> 
-            </nav>
+        <h1 class="logo">Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">🌳 Parques</a></li>
+                <li><a href="#">🌿 Jardines</a></li>
+                <li><a href="#">👥 Normas en puntos verdes</a></li>
+            </ul>
+        </nav>
     </header>
-    
-        <div class="img-container">
-            <img src="img/Metropolitano-4.jpg" alt="Paisaje Medellín">
-                <h1>Explora la Belleza Natural de Medellín</h1>
-                <p>Descubre por qué los puntos verdes son tan importantes para la ciudad.</p>
+ 
+    <div class="img-container">
+        <img src="img/Metropolitano-4.jpg" alt="Paisaje Medellín">
+        <h1>Explora la Belleza Natural de Medellín</h1>
+        <p>Descubre por qué los puntos verdes, parques y áreas naturales son tan importantes para la ciudad de Medellín. Sumérgete en la biodiversidad única que ofrecen estos espacios y disfruta de la conexión con la naturaleza en tu vida diaria.</p>
+    </div>
+ 
+    <!-- Sección Parque Arví -->
+    <section class="parque-section">
+        <div class="parque-info">
+            <h2>Parque Arví</h2>
+            <p>Si lo que buscas es una tarde con un poco más de aventura, el Parque Arví es el lugar a donde debes ir. Hay tantas actividades al aire libre que te será difícil elegir entre ellas: puedes armar un picnic, disfrutar de un trayecto en bicicleta, practicar un poco de senderismo, ver varias especies de aves o pasar una tarde sembrando árboles.</p>
+            <div class="horarios">
+                <span>🗓️ Horarios</span>
+                <p>Abierto de lunes a domingo de 8:00 a.m. a 6:00 p.m.</p>
+            </div>
+            <div class="ubicacion-label">
+                <span>📍 Ubicación</span>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31341.94980178674!2d-74.8039604179113!3d10.90707081198705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5d35e6ab152fd%3A0x432dea950e1d49b9!2sEstadio%20Metropolitano%20Roberto%20Mel%C3%A9ndez!5e0!3m2!1ses-419!2sco!4v1775734892190!5m2!1ses-419!2sco"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
-
-    <aside class="contenedor-principal">
-         <!-- Estadio 1 -->
-        <div class="info-metro">
-            <h2>estadio metropolitano</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore porro 
-            mollitia esse cupiditate praesentium nemo facilis fuga </p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31341.94980178674!2d-74.8039604179113!3d10.90707081198705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5d35e6ab152fd%3A0x432dea950e1d49b9!2sEstadio%20Metropolitano%20Roberto%20Mel%C3%A9ndez!5e0!3m2!1ses-419!2sco!4v1775734892190!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="parque-galeria">
+            <img src="img/Estadio_Metropolitano_baq.jpg" alt="Parque Arví 1">
+            <img src="img/Metropolitano-4.jpg" alt="Parque Arví 2">
+            <img src="img/metro-partido.jpg" alt="Parque Arví 3">
         </div>
-
-        <!-- Estadio 2 -->
-        <div class="info-estadio">
-        <h2>estadio romelio</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad recusandae, debitis praesentium est, 
-        odit eligendi explicabo eos consequuntur,facere officiis aut </p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.594082113463!2d-74.8095081240999!3d10.993980355141414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0c6305e38d%3A0x3afafa54d274168e!2sEstadio%20Romelio%20Mart%C3%ADnez!5e0!3m2!1ses-419!2sco!4v1775734965813!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+ 
+    <!-- Sección Jardín Botánico -->
+    <section class="parque-section parque-section--alt">
+        <div class="parque-info">
+            <h2>Jardín Botánico</h2>
+            <p>Tenemos que empezar por uno de los espacios naturales más grandes de Medellín. El Jardín Botánico reúne varios ambientes naturales y los mezcla de manera atractiva con actividades educativas, restaurantes, espacios para investigar la variedad de especies naturales y arquitectura impresionante.</p>
+            <div class="horarios">
+                <span>🗓️ Horarios</span>
+                <p>Abierto de martes a domingo de 9:00 a.m. a 4:00 p.m.</p>
+            </div>
+            <div class="ubicacion-label">
+                <span>📍 Ubicación</span>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.594082113463!2d-74.8095081240999!3d10.993980355141414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0c6305e38d%3A0x3afafa54d274168e!2sEstadio%20Romelio%20Mart%C3%ADnez!5e0!3m2!1ses-419!2sco!4v1775734965813!5m2!1ses-419!2sco"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
-    </aside>
-
+        <div class="parque-galeria">
+            <img src="img/romelio3.jpg" alt="Jardín Botánico 1">
+            <img src="img/romelio2.jpg" alt="Jardín Botánico 2">
+            <img src="img/romelio1.jpeg" alt="Jardín Botánico 3">
+        </div>
+    </section>
+ 
     <main>
         <article>
             <figure>
-                <!-- Imágenes Estadio Metropolitano -->
-                <img src="img/metro-1.jpg" alt="Vista 1 Metropolitano">
-                <img src="img/metro-2.jpg" alt="Vista 2 Metropolitano">
-                <img src="img/metro-3.jpg" alt="Vista 3 Metropolitano">
-
-                <!-- Imágenes Estadio Romelio -->
-                <img src="img/romelio-1.jpg" alt="Vista 1 Romelio">
-                <img src="img/romelio-2.jpg" alt="Vista 2 Romelio">
-                <img src="img/romelio-3.jpg" alt="Vista 3 Romelio">
             </figure>
         </article>
     </main>
-
+ 
     <footer>
-
     </footer>
-            
+ 
 </body>
 </html>
+ 
